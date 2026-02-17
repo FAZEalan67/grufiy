@@ -1,0 +1,332 @@
+*{
+  font-family: 'Comic Sans MS', 'Comic Sans';
+  font-weight: 600;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: rgb(245, 223, 204);
+}
+.hero{
+  background-image: url(fondo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 160px;
+  height: 674px;
+}
+.boton{
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Fredoka', sans-serif;
+}
+#cuadradocentro{
+  margin: 0;
+  color: white;
+  height: 380px;
+}
+.carta{
+  text-align: center;
+  width: 700px;
+  max-width: 90%;
+  padding: 60px 40px;
+  background: rgba(124, 124, 124, 0.425);
+  border-radius: 30px;
+}
+.carta_viajes1{
+  text-align: center;
+  width: 600px;
+  max-width: 90%;
+  padding: 60px 40px;
+  background: rgba(124, 124, 124, 0.425);
+  border-radius: 30px;
+  text-align: left;
+  background-image: url("foto1.png");
+  color: white;
+}
+.carta_viajes2{
+  text-align: center;
+  width: 600px;
+  max-width: 90%;
+  padding: 60px 40px;
+  background: rgba(124, 124, 124, 0.425);
+  border-radius: 30px;
+  text-align: left;
+  background-image: url("foto2.png");
+  color: white;
+  height: 420px;
+}
+.carta_viajes3{
+  text-align: center;
+  width: 600px;
+  max-width: 90%;
+  padding: 60px 40px;
+  background: rgba(124, 124, 124, 0.425);
+  border-radius: 30px;
+  text-align: left;
+  background-image: url("foto3.png");
+  color: white;
+  height: 420px;
+}
+.carta_viajes img{
+  width: 527px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+  margin-bottom: 20px;
+}
+.carta p{
+  margin-bottom: 30px;
+}
+.carta img{
+  width: 550px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.menu{
+  align-items: center;
+  margin-top: 100px;
+  position: absolute;
+  display: flex;
+  bottom: 800px;
+  left: 700px;
+}
+#quien{
+  margin-left: 100px;
+  margin-right: 100px;
+  border-right: solid 3px black;
+  border-left: solid 3px black;
+  line-height: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+a:link {
+  color: red;
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+#ver{
+  color: white;
+}
+.icono img{
+  margin-left: 275px;
+  margin-top: 10px;
+  display: flex;
+  width: 150px;
+  height: auto;
+}
+.contenedor{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+
+  align-items: center;
+  bottom: 50px;
+  text-align: center;
+}
+.redes img{
+  bottom: 150px; 
+  left: 1600px;
+  position: relative;
+  width: 40px;
+}
+#iconomedio{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.seccion-viaje{
+  display: flex;
+  gap: 60px;
+  padding: 80px 100px;
+  background-color: rgb(245, 223, 204);
+}
+.seccion-viaje img{
+  max-width: 600px;
+}
+.seccion-viaje .etiqueta{
+  border: 1px solid black;
+  padding: 8px 20px;
+  font-size: 12px;
+}
+.seccion-viaje h2{
+  font-size: 28px;
+}
+.footer{
+  border-top: 2px solid black;
+  padding: 50px 80px;
+  margin-top: 80px;
+}
+.footer-contenido{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.footer-icono img{
+  width: 120px;
+}
+.footer-col h4{
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.footer-co p,
+.footer-col a{
+  font-size: 13px;
+  color: black;
+  line-height: 24px;
+}
+.footer-col a:hover{
+  text-decoration: underline;
+}
+.formulario{
+  max-width: 543px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: rgba(124, 124, 124, 0.425);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+.formulario input{
+  padding: 12px 15px;
+  border-radius: 20px;
+  border: 2px solid gray;
+  font-size: 14px;
+  background-color: rgba(124, 124, 124, 0.425);
+}
+.formulario select{
+  padding: 12px 15px;
+  border-radius: 20px;
+  border: 2px solid gray;
+  font-size: 14px;
+  background-color: rgba(124, 124, 124, 0.425);
+}
+.formulario textarea{
+  padding: 12px 15px;
+  border-radius: 20px;
+  border: 2px solid gray;
+  font-size: 14px;
+  background-color: rgba(124, 124, 124, 0.425);
+}
+.formulario button{
+  background-color: black;
+  margin-top: 10px;
+  padding: 12px;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.slider {
+    position: relative;
+    width: 900px;
+    overflow: hidden;
+}
+.slides {
+    display: flex;
+    animation: semanasanta 15s infinite;
+}
+.slide {
+    min-width: 100%;
+}
+.slide img {
+    width: 100%;
+    height: auto;
+}
+@keyframes semanasanta {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(0); }
+    30% { transform: translateX(-100%); }
+    55% { transform: translateX(-100%); }
+    60% { transform: translateX(-200%); } 
+    85% { transform: translateX(-200%); } 
+    90% { transform: translateX(-300%); }
+    100% { transform: translateX(0); }
+}
+.semanasanta{
+  position: relative;
+}
+#textosemanasanta{
+  padding: 30px;
+  top: -475px;
+  left: 900px;
+  background-color: rgba(124, 124, 124, 0.363);
+  border-radius: 50px;
+  margin-right: 1000px;
+}
+.quiensomos{
+  width: 800px;
+  text-align: left;
+  background-color: rgba(124, 124, 124, 0.363);
+  position: absolute;
+  left: 1000px;
+  bottom: -280px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.fotonosotros{
+  display: flex;
+  height: 900px;
+  width: 900px;
+  margin-left: 50px;
+}
+.carta_contactanos{
+  width: 50px;
+  display: inline-block;
+}
+.carta_contactanos img{
+ align-items: center;
+ display: inline-block;
+}
+.cajas{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.caja{
+  background-color: rgba(0,0,0,0.05);
+  padding: 30px;
+  border-radius: 20px;
+  width: 250px;
+}
+.caja img{
+  width: 50px;
+  margin-bottom: 15px;
+}
+#duda{
+  text-align: center;
+}
+.fondo_julio img{
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  margin-left: 350px;
+}

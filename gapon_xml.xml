@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Inicio -->
+    <url>
+        <loc>https://grufiy.com/index.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Nuestros viajes -->
+    <url>
+        <loc>https://grufiy.com/nuestros_viajes.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Reservas -->
+    <url>
+        <loc>https://grufiy.com/reservas.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Quiénes somos -->
+    <url>
+        <loc>https://grufiy.com/quienes_somos.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Detalle viaje Japón julio -->
+    <url>
+        <loc>https://grufiy.com/japon_julio.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Detalle viaje Japón agosto -->
+    <url>
+        <loc>https://grufiy.com/japon_agosto.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Detalle viaje Semana Santa -->
+    <url>
+        <loc>https://grufiy.com/semana_santa.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Viajes a medida -->
+    <url>
+        <loc>https://grufiy.com/viajes_a_medida.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Preguntas frecuentes -->
+    <url>
+        <loc>https://grufiy.com/faq.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Contacto -->
+    <url>
+        <loc>https://grufiy.com/contacto.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+</urlset>
