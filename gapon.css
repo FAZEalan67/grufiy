@@ -3,10 +3,12 @@
   font-weight: 600;
   box-sizing: border-box;
 }
+
 body{
   margin: 0;
   background-color: rgb(245, 223, 204);
 }
+
 .hero{
   background-image: url(fondo.png);
   background-size: cover;
@@ -17,6 +19,64 @@ body{
   padding: 160px;
   height: 674px;
 }
+
+.hero_viajes1{
+  background-image: url(fondo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 160px;
+  font-size: 20px;
+  color: red;
+}
+.hero_viajes2{
+  background-image: url(foto2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 160px;
+  font-size: 20px;
+  color: red;
+}
+.hero_viajes3{
+  background-image: url(foto3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 160px;
+  font-size: 20px;
+  color: red;
+}
+
+.texto_viajes{
+  text-align: left;
+  font-size: 13px;
+  margin-left: 70px;
+}
+
+.texto_viajes img{
+  width: 450px;
+  height: 450px;
+}
+
+.boton_viajes{
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Fredoka', sans-serif;
+}
+
+
 .boton{
   display: inline-block;
   padding: 12px 30px;
@@ -27,11 +87,13 @@ body{
   letter-spacing: 1px;
   font-family: 'Fredoka', sans-serif;
 }
+
 #cuadradocentro{
   margin: 0;
   color: white;
   height: 380px;
 }
+
 .carta{
   text-align: center;
   width: 700px;
@@ -40,6 +102,7 @@ body{
   background: rgba(124, 124, 124, 0.425);
   border-radius: 30px;
 }
+
 .carta_viajes1{
   text-align: center;
   width: 600px;
@@ -51,6 +114,7 @@ body{
   background-image: url("foto1.png");
   color: white;
 }
+
 .carta_viajes2{
   text-align: center;
   width: 600px;
