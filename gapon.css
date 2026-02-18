@@ -29,7 +29,7 @@ body{
   justify-content: center;
   padding: 160px;
   font-size: 20px;
-  color: red;
+  color: yellow;
 }
 .hero_viajes2{
   background-image: url(foto2.png);
@@ -75,8 +75,6 @@ body{
   letter-spacing: 1px;
   font-family: 'Fredoka', sans-serif;
 }
-
-
 .boton{
   display: inline-block;
   padding: 12px 30px;
@@ -87,13 +85,11 @@ body{
   letter-spacing: 1px;
   font-family: 'Fredoka', sans-serif;
 }
-
 #cuadradocentro{
   margin: 0;
   color: white;
   height: 380px;
 }
-
 .carta{
   text-align: center;
   width: 700px;
@@ -102,7 +98,6 @@ body{
   background: rgba(124, 124, 124, 0.425);
   border-radius: 30px;
 }
-
 .carta_viajes1{
   text-align: center;
   width: 600px;
@@ -114,7 +109,6 @@ body{
   background-image: url("foto1.png");
   color: white;
 }
-
 .carta_viajes2{
   text-align: center;
   width: 600px;
