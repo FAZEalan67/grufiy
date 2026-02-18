@@ -390,7 +390,7 @@ a:active {
   margin-left: 350px;
 }
 .textopolitica p{
-  text-align: center;
+  justify-self: center;
   width: 700px;
   margin-left: 500px;
 }
