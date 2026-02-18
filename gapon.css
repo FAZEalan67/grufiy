@@ -389,9 +389,10 @@ a:active {
   height: 500px;
   margin-left: 350px;
 }
-.textopolitica p{
-  display: flex;
-  justify-self: center;
+.textopolitica{
+  border-radius: 15px;
+  border: solid 2px black;
   width: 700px;
-  margin-left: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
