@@ -61,9 +61,10 @@ body{
 }
 
 .texto_viajes img{
+  left: 500px;
   width: 450px;
   height: 450px;
-  position: relative;
+  display: flex;
 }
 
 .boton_viajes{
