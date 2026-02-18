@@ -51,16 +51,16 @@
         <priority>0.8</priority>
     </url>
 
-    <!-- Viajes a medida -->
+    <!-- Formulario -->
     <url>
-        <loc>https://grufiy.com/viajes_a_medida.html</loc>
+        <loc>https://grufiy.com/formulario.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
-    <!-- Preguntas frecuentes -->
+    <!-- Política de privacidad -->
     <url>
-        <loc>https://grufiy.com/faq.html</loc>
+        <loc>https://grufiy.com/politica.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
