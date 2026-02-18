@@ -20,11 +20,6 @@ body{
   height: 674px;
 }
 
-.img_viajes{
-  width: 200px;
-  height: 200px;
-}
-
 .hero_viajes1{
   background-image: url(fondo.png);
   background-size: cover;
@@ -34,7 +29,7 @@ body{
   justify-content: center;
   padding: 160px;
   font-size: 20px;
-  color: yellow;
+  color: red;
 }
 .hero_viajes2{
   background-image: url(foto2.png);
