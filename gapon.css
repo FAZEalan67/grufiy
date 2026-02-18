@@ -63,6 +63,7 @@ body{
 .texto_viajes img{
   width: 450px;
   height: 450px;
+  position: relative;
 }
 
 .boton_viajes{
