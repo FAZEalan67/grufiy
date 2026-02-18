@@ -20,6 +20,11 @@ body{
   height: 674px;
 }
 
+.img_viajes{
+  width: 200px;
+  height: 200px;
+}
+
 .hero_viajes1{
   background-image: url(fondo.png);
   background-size: cover;
